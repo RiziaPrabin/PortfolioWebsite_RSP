@@ -304,21 +304,34 @@ button[type=submit]:hover {
 /* Start Home */
 #home {
     height: 100vh;
+    background-color: #000;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/hero-bg.jpg);
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/riz.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/riz.jpg);
-    background-size: 95%;
+    background-size: 80%;
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
 }
 
 h1 {
     font-size: 4.5rem;
+
 }
 
 .animated-letters {
     font-size: 2.5rem;
+
     /* display: inline-block; */
+}
+
+.home-content {
+    padding-top: 25rem;
+    padding-left: 30rem;
+    /* Adjust to move everything down */
+    text-align: center;
 }
 
 .animated-letters::after {
